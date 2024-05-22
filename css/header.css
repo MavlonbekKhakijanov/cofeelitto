@@ -1,0 +1,190 @@
+/* NAVBAR desctop*/
+.header {
+  margin-bottom: 13rem;
+}
+.nav__conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hamburger {
+  display: none;
+}
+.compny__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.compny__logo__title {
+  color: var(--darc-grey-blue);
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+}
+.navbar__list__item__link {
+  font-size: 1.2rem;
+  line-height: 1.25;
+  letter-spacing: 0.92px;
+  color: var(--grey);
+  padding: 4.8rem 0;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  transition: 0.2s;
+  &:hover {
+    color: var(--darc-grey-blue);
+  }
+}
+/* hero img desctop*/
+.header__hero__img {
+  background: url(../images/images/home/desktop/image-hero-coffeepress.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+}
+.header__hero__img__description {
+  padding: 8rem 0;
+}
+.header__hero__img__description__title {
+  font-weight: 900;
+  font-size: 6.5rem;
+  color: var(--light-cream-bg);
+  line-height: 1;
+  max-width: 493px;
+  margin-bottom: 3.2rem;
+}
+.header__hero__img__description__subtitle {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: var(--secondary-font);
+  max-width: 445px;
+  text-align: left;
+  color: var(--light-cream-bg);
+  opacity: 0.8;
+  margin-bottom: 5.6rem;
+}
+/* TABLET */
+@media (max-width: 1000px) {
+  .container {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+  .nav__conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .compny__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .compny__logo__title {
+    color: var(--darc-grey-blue);
+  }
+  .navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 3.3rem;
+  }
+  .navbar__list__item__link {
+    font-size: 1.2rem;
+    line-height: 1.25;
+    letter-spacing: 0.92px;
+    color: var(--grey);
+    padding: 4.8rem 0;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    transition: 0.2s;
+    &:hover {
+      color: var(--darc-grey-blue);
+    }
+  }
+
+  /* hero img tablet*/
+  .header__hero__img {
+    background: url(../images/images/home/tablet/image-hero-coffeepress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+  }
+  .header__hero__img__description {
+    padding: 7rem 0;
+  }
+  .header__hero__img__description__title {
+    font-weight: 900;
+    font-size: 4.8rem;
+    color: var(--light-cream-bg);
+    line-height: 1;
+    max-width: 329px;
+    margin-bottom: 2.4rem;
+  }
+  .header__hero__img__description__subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+    max-width: 398px;
+    text-align: left;
+    color: var(--light-cream-bg);
+    opacity: 0.8;
+    margin-bottom: 4rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 575px) {
+  .container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .compny__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 3.2rem 0;
+  }
+  .compny__logo__title {
+    color: var(--darc-grey-blue);
+  }
+
+  /* hero img mobile*/
+  .header__hero__img {
+    background: url(../images/images/home/mobile/image-hero-coffeepress.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header__hero__img__description {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__hero__img__description__title {
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: var(--light-cream-bg);
+    line-height: 1;
+
+    margin-bottom: 2.4rem;
+    text-align: center;
+  }
+  .header__hero__img__description__subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--secondary-font);
+    max-width: 279px;
+    text-align: center;
+    color: var(--light-cream-bg);
+    opacity: 0.8;
+    margin-bottom: 3.9rem;
+  }
+}

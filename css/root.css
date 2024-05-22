@@ -1,0 +1,15 @@
+/* colors */
+:root {
+  --darck-cyan: #0e8784;
+  --darc-grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --light-cream-bg: #fefcf7;
+  --grey: #83888f;
+  --btn-hover: #66d2cf;
+  --btn-desebled: #e2dedb;
+}
+/* font */
+:root {
+  --main-font: "Fraunces", serif;
+  --secondary-font: "Barlow", sans-serif;
+}

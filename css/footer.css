@@ -1,0 +1,124 @@
+footer {
+  margin-bottom: 8rem;
+}
+footer .nav__conatiner {
+  margin-bottom: 4rem;
+  background-color: var(--darc-grey-blue);
+}
+.nav__conatiner__footer {
+  display: flex;
+  justify-content: stretch;
+  gap: 10rem;
+  align-items: center;
+}
+.footer .nav__conatiner .compny__logo__title {
+  color: var(--light-cream-bg);
+}
+.footer .nav__conatiner .compny__logo {
+  display: flex;
+  align-items: center;
+}
+.footer .nav__conatiner .navbar__list__item__link {
+  padding: 5rem 0;
+  transition: 0.3s;
+  &:hover {
+    color: var(--light-cream-bg);
+  }
+}
+.footer__icon {
+  display: flex;
+  gap: 2.4rem;
+  color: var(--light-cream-bg);
+  font-size: 2.4rem;
+}
+/* TABLET  */
+@media (max-width: 1000px) {
+  footer .nav__conatiner {
+    margin-bottom: 4rem;
+    background-color: var(--darc-grey-blue);
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__conatiner__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 3.2rem;
+    align-items: center;
+  }
+  .footer .nav__conatiner .compny__logo__title {
+    color: var(--light-cream-bg);
+  }
+  .footer .nav__conatiner .compny__logo {
+    margin-top: 5.4rem;
+    display: flex;
+    align-items: center;
+  }
+  .footer .nav__conatiner .navbar__list__item__link {
+    padding: 0;
+    transition: 0.3s;
+    margin-bottom: 6.5rem;
+    &:hover {
+      color: var(--light-cream-bg);
+    }
+  }
+  .footer__icon {
+    display: flex;
+    gap: 2.4rem;
+    color: var(--light-cream-bg);
+    font-size: 2.4rem;
+    margin-bottom: 5.4rem;
+  }
+}
+
+/* MOBILE  */
+@media (max-width: 575px) {
+  footer .nav__conatiner {
+    background-color: var(--darc-grey-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav__conatiner__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.2rem;
+    align-items: center;
+    margin-bottom: 4.8rem;
+  }
+  .footer .nav__conatiner .compny__logo__title {
+    color: var(--light-cream-bg);
+  }
+  .footer .nav__conatiner .compny__logo {
+    margin-top: 5.4rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .footer .nav__conatiner .navbar__list__item__link {
+    padding: 0;
+    transition: 0.3s;
+    margin-bottom: 2.4rem;
+    text-align: center;
+    &:hover {
+      color: var(--light-cream-bg);
+    }
+  }
+  .footer .navbar__list__item {
+    text-align: center;
+  }
+  .footer__icon {
+    display: flex;
+    gap: 2.4rem;
+    color: var(--light-cream-bg);
+    font-size: 2.4rem;
+    margin-bottom: 5.4rem;
+  }
+  .footer .hamburger {
+    display: none;
+  }
+  .footer .navbar__list {
+    display: block;
+  }
+}
